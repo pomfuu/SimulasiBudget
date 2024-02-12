@@ -77,6 +77,12 @@
       <value></value>
       <variableId>8a1d35ad-df7b-409e-83d3-8e22796412b3</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b8f2355a-7fe8-4778-9674-9d3217bc49d7</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'10000'</defaultValue>
       <description></description>

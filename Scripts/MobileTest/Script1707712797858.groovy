@@ -17,5 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Mobile.startApplication('', false)
+Mobile.startApplication('C:\\Users\\clarien cahyono\\AndroidStudioProjects\\UXProject\\app\\release\\app-release.apk', true)
+
+Mobile.setText(findTestObject('Object Repository/UXAndroid/android.widget.EditText - Username'), 'alincahyono@gmail.com', 
+    0)
+
+Mobile.setEncryptedText(findTestObject('Object Repository/UXAndroid/android.widget.EditText - Password'), 'BMvJtdViy6e7TNjZkhDbaw==', 
+    0)
+
+Mobile.tap(findTestObject('UXAndroid/android.widget.Button - LOGIN'), 0)
+
+Mobile.delay(3)
+
+Mobile.closeApplication()
 
