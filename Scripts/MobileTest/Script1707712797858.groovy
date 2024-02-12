@@ -25,9 +25,17 @@ Mobile.setText(findTestObject('Object Repository/UXAndroid/android.widget.EditTe
 Mobile.setEncryptedText(findTestObject('Object Repository/UXAndroid/android.widget.EditText - Password'), 'BMvJtdViy6e7TNjZkhDbaw==', 
     0)
 
+Mobile.hideKeyboard()
+
 Mobile.tap(findTestObject('UXAndroid/android.widget.Button - LOGIN'), 0)
 
 Mobile.delay(3)
+
+Mobile.tap(findTestObject('UXAndroid/android.widget.ImageView'), 0)
+
+Mobile.pressBack()
+
+Mobile.
 
 Mobile.closeApplication()
 
